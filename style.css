@@ -10,6 +10,7 @@ body{
     font-size: 1.6rem; 
     font-family: sans-serif;
     background-color: #0B0C0F;
+    overflow-x: hidden;
 }
 .section1{
     background: url(./imghulu/header-background.jpeg);
@@ -30,18 +31,18 @@ body{
 .navbar img{
     width: 6.1rem;
 }
-.navbar button{
+.navbar a{
     font-size: 2rem;
     font-weight: 500;
     padding: 1.3rem;
-    border: none;
     border-radius: .8rem;
     background: transparent;
-    color: #A8AFBD;
     font-family: sans-serif;
     transition: background .2s ease-in ;
+    color: #A8AFBD;
+    text-decoration: none;
 }
-.navbar button:hover{
+.navbar a:hover{
     background-color: #535559;
     color: #fff;
 
@@ -345,6 +346,7 @@ body{
     background-color: #00ED82;
     border-radius: 3rem;
 
+    
 }
 
 .price{

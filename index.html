@@ -7,12 +7,13 @@
     <title>Hulu</title>
     <link rel="icon" href="./imghulu/hulu-logo.svg">
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <section class="section1">
         <nav class="navbar">
             <img src="./imghulu/hulu-logo.svg" alt="">
-            <button type="submit">LOG IN</button>
+            <a href="./login.html">LOG IN</a>
         </nav>
         <article class="section1text">
             <h2>BUNDLE WITH ANY HULU PLAN & SAVE</h2>
@@ -33,20 +34,21 @@
             <h2>All The TV You love</h2>
             <p>Stream full seasons of exclusive series, current-season episodes, hit movies, Hulu Originals, kids shows, and more.</p>
         </div>
-        <div class="section2img">
-            <div class="section2img1">
+        <div class="section2img" >
+            <div class="section2img1" data-aos="fade-right"data-aos-easing="linear"
+            data-aos-duration="1800" >
                 <p>Past & Current Seasons</p>
                 <p class="show2">TV Shows</p>
             </div>
-            <div class="section2img2">
+            <div class="section2img2" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1200" >
                 <p>New & Classic</p>
                 <p class="show2">Movies</p>
             </div>
-            <div class="section2img3">
+            <div class="section2img3" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1200" >
                 <p>Groundbreaking</p>
                 <p class="show2">Hulu Originals</p>
             </div>
-            <div class="section2img4">
+            <div class="section2img4"  data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1800">
                 <p>Add-on</p>
                 <p class="show2">Premiums</p>
             </div>
@@ -261,7 +263,10 @@
             </div>
         </div>
     </footer>
-  
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
     
 </body>
 </html>
